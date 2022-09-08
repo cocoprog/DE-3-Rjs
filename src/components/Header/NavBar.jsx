@@ -1,9 +1,5 @@
-
-const NavBar = () => {
-    
-    return (
-        <header>
-            <img src="marca3.png" alt="logo-enio" className="logo-enio" />
+export function NavBar () {
+    return(
             <nav className="nav-container">
                 <ul className="nav">
                     <li className="nav-item">
@@ -22,9 +18,7 @@ const NavBar = () => {
                         <a className="nav-link" href="html/contacto.html">Contacto</a>
                     </li>
                 </ul>
-            </nav>            
-        </header>
+            </nav>
     )
-};
+}
 
-export default NavBar;
