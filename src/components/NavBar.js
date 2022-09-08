@@ -1,3 +1,4 @@
+
 const NavBar = () => {
     
     return (
@@ -21,7 +22,7 @@ const NavBar = () => {
                         <a className="nav-link" href="html/contacto.html">Contacto</a>
                     </li>
                 </ul>
-            </nav>
+            </nav>            
         </header>
     )
 };
